@@ -1,0 +1,281 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*header-start*/
+
+
+header{
+    background-color: rgba(0, 119, 101, 1);
+    
+    height: 84px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+}
+.clear{
+    clear:both;
+}
+.header-1{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-item{
+    margin-right: 8px;
+}
+.heder-item:last-child{
+    margin-right: 0;
+}
+.item{
+    margin-right: 8px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+li{
+    list-style-type: none;  
+}
+ul{
+    font-size: 24px;
+    line-height: 28px;
+}
+.logo_1{
+    height: 45px;
+    width: 184px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 19px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.item{
+    color: white;
+}
+.header-item:hover, .header-item:focus, .header-item:active{
+    opacity: .75;
+}
+
+
+/*header end*/
+
+
+/*pre-header start*/
+
+
+.pre-header{
+    background-image: url(image.png);
+    margin-top: 84px;
+    width: 100%;
+    height: 403px;
+    font-size: 40px;
+    color: white;
+   
+}
+.pre-header-word{
+    display: block;
+    margin:0 auto;
+    padding-top: 150px;
+    max-width: 1219px;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center; 
+}
+
+
+/*pre-header end*/
+
+
+/*intro start*/
+
+.intro{
+    padding-top: 48px;
+    padding-bottom:92px;
+    display:block;
+    margin:0 auto;
+    max-width: 1110px;
+}
+.title-1{
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+    font-size: 64px;
+    line-height: 75px; 
+    padding-bottom: 16px;
+    color:rgba(0, 119, 101, 1);
+    text-align: center;
+}
+.text-1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+/* intro end*/
+
+
+/*after-intro start*/
+
+.after-intro{
+    background-image: url(image1.png);
+    width: 100%; 
+    height: 483px;
+}
+.text-2{
+    display: block;
+    max-width: 893px;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 128px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px; 
+    color: white;
+}
+
+
+/*after-intro end*/
+
+
+/*introducing start*/
+
+.introducing{
+    display: block;
+    max-width: 1100px;
+    margin: 84px auto 92px;
+    
+}
+.title-2{
+    display: block;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    text-align: center;
+    color: #007765;    
+}
+.image-logo{
+    float: left;
+    width:115px;
+    height: 115px;
+    padding-right: 48px;
+    padding-top: 16px;
+
+}
+.text-3{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+.text-3-1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 35px;
+}
+
+
+/*introducing end*/
+
+
+/*team start*/
+
+
+.team{
+    background-color: #EEEEEE;
+    
+   
+}
+.team-block{
+    display: block;
+    max-width: 1110px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 58px;
+}
+.title-team{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    text-align: center;
+    color: #007765;        
+   
+}
+.name-team-1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #007765;    
+}
+.job{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.img-block-person-1{
+    width: 168px;
+    height: 168px;
+}
+.team-person{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-bottom: 112px;
+    padding-top: 56px;
+}
+.person{
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*team end*/
+
+
+/*footer start*/
+
+
+.footer{
+    height: 176px;
+    background: #333333; 
+}
+.markers{
+    display:block;
+    max-width: 540px;
+    margin: 0 auto;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
